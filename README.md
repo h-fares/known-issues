@@ -8,3 +8,5 @@ The issue turned out to be coming from the AirPlay receiver listening on Ports 5
 ### Solution
 * Be sure that localhost is pointed to 127.0.0.1: by checking the hosts file `sudo nano /etc/hosts`. This line has to be written: `127.0.0.1 localhost`
 * Uncheck the "AirPlay Receiver": Go to System Perferences -> Sharing and uncheck the AirPlay Receiver.
+
+[stackoverflow](https://stackoverflow.com/questions/33524826/localhost-not-working-in-chrome-127-0-0-1-does-work)
